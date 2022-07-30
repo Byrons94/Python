@@ -1,8 +1,4 @@
-from ast import While
 import time
-from tkinter import E
-from tkinter.tix import Tree
-from turtle import pos
 import numpy as np
 import pygame
 
@@ -11,7 +7,6 @@ COLOR_BG = (10, 10, 10)
 COLOR_GRID = (40, 40, 40)
 COLOR_DIE_NEXT = (170, 170, 170)
 COLOR_ALIVE_NEXT = (255, 255, 255)
-
 
 def update(screen, cells, size, with_progress=False):
     update_cells = np.zeros((cells.shape[0], cells.shape[1]))
